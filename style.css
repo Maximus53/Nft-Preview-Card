@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;https://fonts.googleapis.com/css2?family=Outfit:wght@300; 400; 600&display=swap&display=swap');
+
+.box {
+    margin: 0 24px 24px 24px;
+}
+
+.header {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 350px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: hsl(217, 54%, 11%);
+}
+
+.container {
+    margin: 0 auto;
+    background: #15263f;
+    height: 596px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.eth {
+    display: flex;
+    align-items: center;
+    font-family: 'outfit', 'sans-serif';
+}
+
+.image-top {
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.image-top img {
+    width: 100%;
+    display: block;
+}
+
+.image-overley {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: hsla(178, 100%, 50%, 0.5);
+}
+
+.image-overley img {
+    position: absolute;
+    width: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-top:hover .image-overley {
+    display: block;
+}
+
+.wrapper {
+    border-radius: 8px;
+    Width: 302px;
+    Height: 302px;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+}
+
+h1 {
+    border-top: 24px;
+    font-family: 'Outfit';
+    font-size: 22px;
+    text-align: left;
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    width: 302px;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.info {
+    margin-top: 16px;
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.1875px;
+    color: #8BACD9;
+    width: 302px;
+}
+
+.detail {
+    width: 301px;
+    height: 20px;
+    display: flex;
+}
+
+.ether {
+    float: left;
+    display: flex;
+    color: #00FFF8;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.eth {
+    float: left;
+    margin-right: 6.48px;
+    height: 20.21px;
+}
+
+.days {
+    text-align: right;
+    display: flex;
+    padding-left: 95px;
+    color: #8BACD9;
+    font-family: 'Outfit', 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 50%;
+    align-items: center;
+}
+
+.avatar {
+    width: 33px;
+    height: 33px;
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    width: 302px;
+}
+
+.by,
+.author {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.by {
+    display: flex;
+    color: #8BACD9;
+    margin: 6px 0px 0px 16px;
+}
+
+.author {
+    display: flex;
+    color: #ffffff;
+    margin-left: 25px;
+}
+
+.im a:link {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+h1:hover,
+a:hover {
+    color: #00FFF8;
+}
+
+.image:visited {
+    background-color: #00FFF8;
+    display: inline-block;
+    background-color: transparent;
+    height: 30vh;
+    margin: 1em;
+    cursor: pointer;
+    border: 0;
+}
+
+.rolex {
+    margin-right: 9.03px;
+}
